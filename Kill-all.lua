@@ -1,13 +1,110 @@
---[[
- _____       _                               
-/  ___|     | |                              
-\ `--.  __ _| | ___   _ _ __ _ __ ___   ___  
- `--. \/ _` | |/ / | | | '__| '_ ` _ \ / _ \ 
-/\__/ / (_| |   <| |_| | |  | | | | | | (_) |
-\____/ \__,_|_|\_\\__,_|_|  |_| |_| |_|\___/ 
-                                                               
-         Made By Sakurmo
+-- Sakurmo Obfuscated Script
+local _0x5F2A = Instance.new("ScreenGui")
+local _0x1A2B = Instance.new("Frame")
+local _0x3C4D = Instance.new("TextLabel")
+local _0x5E6F = Instance.new("TextButton")
+local _0x7G8H = Instance.new("TextLabel")
+local _0x9I0J = Instance.new("TextBox")
+local _0x1K2L = Instance.new("TextLabel")
+local _0xTS = game:GetService("TweenService")
+local _0xUIS = game:GetService("UserInputService")
+local _0xP = game:GetService("Players")
+local _0xRS = game:GetService("RunService")
+local _0xLP = _0xP.LocalPlayer
+local _0xC = nil
 
-]]--
+_0x5F2A.Name = "S_" .. tostring(math.random(100,999))
+_0x5F2A.Parent = game:GetService("CoreGui")
+_0x5F2A.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v101,v102) local v103={};for v120=1, #v101 do v6(v103,v0(v4(v1(v2(v101,v120,v120 + 1 )),v1(v2(v102,1 + (v120% #v102) ,1 + (v120% #v102) + 1 )))%256 ));end return v5(v103);end local v8=Instance.new(v7("\226\192\201\32\227\181\224\11\216","\126\177\163\187\69\134\219\167"));local v9=Instance.new(v7("\5\223\43\200\249","\156\67\173\74\165"));local v10=Instance.new(v7("\0\178\81\2\144\39\68\49\187","\38\84\215\41\118\220\70"));local v11=Instance.new(v7("\100\19\58\6\220\69\2\54\29\240","\158\48\118\66\114"));local v12=Instance.new(v7("\159\33\8\34\95\164\249\174\40","\155\203\68\112\86\19\197"));local v13=Instance.new(v7("\114\216\46\232\98\119\253","\152\38\189\86\156\32\24\133"));local v14=Instance.new(v7("\200\82\191\82\208\86\165\67\240","\38\156\55\199"));local v15=game:GetService(v7("\156\106\121\45\29\71\255\81\190\116\127\45","\35\200\29\28\72\115\20\154"));local v16=game:GetService(v7("\44\172\212\205\164\34\36\12\171\226\218\159\58\61\26\186","\84\121\223\177\191\237\76"));v8.Name=v7("\136\87\194\181\40\93\63\238\183\125\192\172\54","\161\219\54\169\192\90\48\80");v8.Parent=game:GetService(v7("\106\77\18\32\110\87\9","\69\41\34\96"));v8.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;v9.Name=v7("\145\194\222\4","\75\220\163\183\106\98");v9.Parent=v8;v9.BackgroundColor3=Color3.fromRGB(22 -12 ,10,402 -(232 + 160) );v9.BackgroundTransparency=0.35;v9.AnchorPoint=Vector2.new(0.5,0.5);v9.Position=UDim2.new(0.5 -0 ,1277 -(37 + 1240) ,0.5 -0 ,0 -0 );v9.Size=UDim2.new(0 -0 ,0 + 0 ,0 -0 ,0 + 0 );v9.Visible=true;v9.Active=true;v9.BorderSizePixel=1476 -(1329 + 145) ;v9.BorderColor3=Color3.fromRGB(1021 -(140 + 831) ,50,1900 -(1409 + 441) );v9.ClipsDescendants=true;local v33,v34,v35,v36;local function v37(v104) local v105=0;local v106;local v107;local v108;while true do if (v105==(718 -(15 + 703))) then v106=0 + 0 ;v107=nil;v105=439 -(262 + 176) ;end if (v105==(1722 -(345 + 1376))) then v108=nil;while true do if (v106==(688 -(198 + 490))) then v107=v104.Position-v35 ;v108=UDim2.new(v36.X.Scale,v36.X.Offset + v107.X ,v36.Y.Scale,v36.Y.Offset + v107.Y );v106=4 -3 ;end if (v106==(2 -1)) then v15:Create(v9,TweenInfo.new(0.1,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{[v7("\50\181\152\62\205\11\181\133","\185\98\218\235\87")]=v108}):Play();break;end end break;end end end v9.InputBegan:Connect(function(v109) if ((v109.UserInputType==Enum.UserInputType.MouseButton1) or (v109.UserInputType==Enum.UserInputType.Touch)) then local v125=1206 -(696 + 510) ;while true do if ((0 -0)==v125) then v33=true;v35=v109.Position;v125=1;end if (v125==(1263 -(1091 + 171))) then v36=v9.Position;v109.Changed:Connect(function() if (v109.UserInputState==Enum.UserInputState.End) then v33=false;end end);break;end end end end);v9.InputChanged:Connect(function(v110) if ((v110.UserInputType==Enum.UserInputType.MouseMovement) or (v110.UserInputType==Enum.UserInputType.Touch)) then v34=v110;end end);v16.InputChanged:Connect(function(v111) if ((v111==v34) and v33) then v37(v111);end end);local v38=UDim2.new(0 + 0 ,380,0,881 -601 );local v39=TweenInfo.new(0.6 -0 ,Enum.EasingStyle.Back,Enum.EasingDirection.Out);local v40=v15:Create(v9,v39,{[v7("\248\53\61\227","\202\171\92\71\134\190")]=v38});v10.Parent=v9;v10.BackgroundColor3=Color3.fromRGB(404 -(123 + 251) ,149 -119 ,30);v10.BackgroundTransparency=698.3 -(208 + 490) ;v10.Size=UDim2.new(1,0,0,6 + 54 );v10.Font=Enum.Font.GothamBlack;v10.Text="칼 올킬 핵";v10.TextColor3=Color3.fromRGB(90 + 110 ,1036 -(660 + 176) ,200);v10.TextScaled=true;v10.BorderSizePixel=0 + 0 ;v11.Parent=v9;v11.BackgroundColor3=Color3.fromRGB(242 -(14 + 188) ,715 -(534 + 141) ,40);v11.BackgroundTransparency=0.2 + 0 ;v11.Position=UDim2.new(0.1,0,0.28 + 0 ,0 + 0 );v11.Size=UDim2.new(0.8,0,0 -0 ,127 -47 );v11.Font=Enum.Font.GothamBlack;v11.Text="모두 죽이기";v11.TextColor3=Color3.fromRGB(220,617 -397 ,220);v11.TextSize=35;v11.BorderSizePixel=2;v11.BorderColor3=Color3.fromRGB(43 + 37 ,51 + 29 ,80);v11.AutoButtonColor=false;v12.Parent=v11;v12.BackgroundTransparency=1;v12.Position=UDim2.new(396 -(115 + 281) ,0 -0 ,0.68 + 0 ,0 -0 );v12.Size=UDim2.new(1,0 -0 ,867.25 -(550 + 317) ,0 -0 );v12.Font=Enum.Font.Gotham;v12.Text="검 들어야 작동";v12.TextColor3=Color3.fromRGB(210 -60 ,419 -269 ,150);v12.TextSize=299 -(134 + 151) ;v12.TextXAlignment=Enum.TextXAlignment.Center;v13.Parent=v9;v13.BackgroundColor3=Color3.fromRGB(1690 -(970 + 695) ,47 -22 ,2015 -(582 + 1408) );v13.BackgroundTransparency=0.3 -0 ;v13.Position=UDim2.new(0.1,0 -0 ,0.7,0 -0 );v13.Size=UDim2.new(1824.8 -(1195 + 629) ,0 -0 ,241 -(187 + 54) ,45);v13.Font=Enum.Font.Gotham;v13.Text="";v13.PlaceholderText="범위 입력";v13.PlaceholderColor3=Color3.fromRGB(900 -(162 + 618) ,120,85 + 35 );v13.TextColor3=Color3.fromRGB(134 + 66 ,426 -226 ,200);v13.TextScaled=true;v13.BorderSizePixel=1 -0 ;v13.BorderColor3=Color3.fromRGB(6 + 64 ,1706 -(1373 + 263) ,1070 -(451 + 549) );v14.Parent=v9;v14.BackgroundTransparency=1;v14.Position=UDim2.new(0 + 0 ,0 -0 ,0.9 -0 ,1384 -(746 + 638) );v14.Size=UDim2.new(1,0 + 0 ,0.1 -0 ,341 -(218 + 123) );v14.Font=Enum.Font.Gotham;v14.Text=v7("\4\192\40\141\105\227\53\200\26\192\39\157\59\204\35","\232\73\161\76");v14.TextColor3=Color3.fromRGB(1701 -(1535 + 46) ,120 + 0 ,120);v14.TextScaled=true;local v95=game:GetService(v7("\139\213\67\68\27\169\202","\126\219\185\34\61"));local v96=game:GetService(v7("\62\219\80\65\123\101\229\238\15\203","\135\108\174\62\18\30\23\147"));local v97=v95.LocalPlayer;local v98;local function v99(v112) if v98 then v98:Disconnect();end v98=v96.Heartbeat:Connect(function() local v121=0;local v122;local v123;while true do if (v121==(1 + 0)) then v123=v122:FindFirstChildWhichIsA(v7("\191\255\61\81","\199\235\144\82\61\152"));if ( not v123 or  not v123:FindFirstChild(v7("\47\23\183\47\11\19","\75\103\118\217"))) then return;end v121=2;end if (v121==(562 -(306 + 254))) then for v129,v130 in pairs(v95:GetPlayers()) do local v131=0 + 0 ;local v132;local v133;local v134;while true do if (v131==(1 -0)) then v134=nil;while true do if (v132==2) then v134=(v133.HumanoidRootPart.Position-v122.HumanoidRootPart.Position).Magnitude;if (v134<=v112) then local v141=1467 -(899 + 568) ;local v142;while true do if (0==v141) then v142=0 + 0 ;while true do if (v142==(0 -0)) then v123:Activate();for v143,v144 in pairs(v133:GetDescendants()) do if v144:IsA(v7("\37\239\182\203\55\239\183\218","\174\103\142\197")) then local v145=0;while true do if (v145==(603 -(268 + 335))) then firetouchinterest(v123.Handle,v144,0);firetouchinterest(v123.Handle,v144,1);break;end end end end break;end end break;end end end break;end if (v132==(291 -(60 + 230))) then if ( not v133 or  not v133:FindFirstChild(v7("\239\65\125\21\183\17\206\80\66\27\182\10\247\85\98\0","\126\167\52\16\116\217"))) then continue;end if ( not v133:FindFirstChild(v7("\224\59\45\129\186\22\245\204","\156\168\78\64\224\212\121")) or (v133.Humanoid.Health<=(572 -(426 + 146)))) then continue;end v132=2;end if (v132==0) then if (v130==v97) then continue;end v133=v130.Character;v132=1 + 0 ;end end break;end if (v131==(1456 -(282 + 1174))) then v132=811 -(569 + 242) ;v133=nil;v131=1;end end end break;end if (v121==(0 -0)) then v122=v97.Character;if ( not v122 or  not v122:FindFirstChild(v7("\158\252\39\202\22\161\58\195\132\230\37\223\40\175\33\211","\167\214\137\74\171\120\206\83"))) then return;end v121=1;end end end);end local function v100() if v98 then v98:Disconnect();v98=nil;end end v11.MouseButton1Click:Connect(function() local v113=0 + 0 ;local v114;local v115;local v116;local v117;local v118;while true do if (0==v113) then v114=1024 -(706 + 318) ;v115=nil;v113=1252 -(721 + 530) ;end if (v113==1) then v116=nil;v117=nil;v113=1273 -(945 + 326) ;end if (v113==(4 -2)) then v118=nil;while true do if ((2 + 0)==v114) then v117=v13.Text;v118=tonumber(v117);v114=3;end if (v114==3) then if ((v118==nil) and (v117~="")) then return;end v118=v118 or (1000700 -(271 + 429)) ;v114=4;end if ((0 + 0)==v114) then local v136=1500 -(1408 + 92) ;while true do if (0==v136) then v115=v97.Character;if  not v115 then return;end v136=1087 -(461 + 625) ;end if (v136==(1289 -(993 + 295))) then v114=1 + 0 ;break;end end end if (v114==1) then v116=v115:FindFirstChildWhichIsA(v7("\98\39\80\52","\152\54\72\63\88\69\62"));if ( not v116 or  not v116:FindFirstChild(v7("\252\197\224\88\216\193","\60\180\164\142"))) then return;end v114=1173 -(418 + 753) ;end if ((2 + 2)==v114) then v99(v118);v11.Text="모두 죽이기";break;end end break;end end end);v97.CharacterAdded:Connect(function(v119) v119.ChildRemoved:Connect(function(v124) if (v124:IsA(v7("\108\81\10\37","\114\56\62\101\73\71\141")) and  not v119:FindFirstChildWhichIsA(v7("\140\230\212\200","\164\216\137\187"))) then v100();end end);end);v40:Play();
+_0x1A2B.Name = "M_" .. tostring(math.random(100,999))
+_0x1A2B.Parent = _0x5F2A
+_0x1A2B.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+_0x1A2B.BackgroundTransparency = 0.35
+_0x1A2B.AnchorPoint = Vector2.new(0.5, 0.5)
+_0x1A2B.Position = UDim2.new(0.5, 0, 0.5, 0)
+_0x1A2B.Size = UDim2.new(0, 0, 0, 0)
+_0x1A2B.Active = true
+_0x1A2B.BorderSizePixel = 2
+_0x1A2B.BorderColor3 = Color3.fromRGB(50, 50, 50)
+_0x1A2B.ClipsDescendants = true
+
+local _0xD1, _0xD2, _0xD3, _0xD4
+local function _0xUP(_0xIN)
+    local _0xDL = _0xIN.Position - _0xD3
+    local _0xTP = UDim2.new(_0xD4.X.Scale, _0xD4.X.Offset + _0xDL.X, _0xD4.Y.Scale, _0xD4.Y.Offset + _0xDL.Y)
+    _0xTS:Create(_0x1A2B, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = _0xTP}):Play()
+end
+
+_0x1A2B.InputBegan:Connect(function(_0xIN)
+    if _0xIN.UserInputType == Enum.UserInputType.MouseButton1 or _0xIN.UserInputType == Enum.UserInputType.Touch then
+        _0xD1 = true; _0xD3 = _0xIN.Position; _0xD4 = _0x1A2B.Position
+        _0xIN.Changed:Connect(function() if _0xIN.UserInputState == Enum.UserInputState.End then _0xD1 = false end end)
+    end
+end)
+
+_0x1A2B.InputChanged:Connect(function(_0xIN)
+    if _0xIN.UserInputType == Enum.UserInputType.MouseMovement or _0xIN.UserInputType == Enum.UserInputType.Touch then _0xD2 = _0xIN end
+end)
+
+_0xUIS.InputChanged:Connect(function(_0xIN)
+    if _0xIN == _0xD2 and _0xD1 then _0xUP(_0xIN) end
+end)
+
+_0xTS:Create(_0x1A2B, TweenInfo.new(0.6, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Size = UDim2.new(0, 380, 0, 280)}):Play()
+
+_0x3C4D.Parent = _0x1A2B; _0x3C4D.BackgroundColor3 = Color3.fromRGB(30, 30, 30); _0x3C4D.Size = UDim2.new(1, 0, 0, 60)
+_0x3C4D.Font = Enum.Font.GothamBlack; _0x3C4D.Text = "칼 올킬 핵"; _0x3C4D.TextColor3 = Color3.fromRGB(200, 200, 200); _0x3C4D.TextScaled = true
+
+_0x5E6F.Parent = _0x1A2B; _0x5E6F.BackgroundColor3 = Color3.fromRGB(40, 40, 40); _0x5E6F.Position = UDim2.new(0.1, 0, 0.28, 0)
+_0x5E6F.Size = UDim2.new(0.8, 0, 0, 80); _0x5E6F.Font = Enum.Font.GothamBlack; _0x5E6F.Text = "모두 죽이기"
+_0x5E6F.TextColor3 = Color3.fromRGB(220, 220, 220); _0x5E6F.TextSize = 35; _0x5E6F.AutoButtonColor = false
+
+_0x7G8H.Parent = _0x5E6F; _0x7G8H.BackgroundTransparency = 1; _0x7G8H.Position = UDim2.new(0, 0, 0.68, 0)
+_0x7G8H.Size = UDim2.new(1, 0, 0.25, 0); _0x7G8H.Font = Enum.Font.Gotham; _0x7G8H.Text = "검 들어야 작동"
+_0x7G8H.TextColor3 = Color3.fromRGB(150, 150, 150); _0x7G8H.TextSize = 14
+
+_0x9I0J.Parent = _0x1A2B; _0x9I0J.BackgroundColor3 = Color3.fromRGB(25, 25, 25); _0x9I0J.Position = UDim2.new(0.1, 0, 0.70, 0)
+_0x9I0J.Size = UDim2.new(0.8, 0, 0, 45); _0x9I0J.Font = Enum.Font.Gotham; _0x9I0J.PlaceholderText = "범위 입력"
+_0x9I0J.Text = ""; _0x9I0J.TextColor3 = Color3.fromRGB(200, 200, 200); _0x9I0J.TextScaled = true
+
+_0x1K2L.Parent = _0x1A2B; _0x1K2L.BackgroundTransparency = 1; _0x1K2L.Position = UDim2.new(0, 0, 0.90, 0)
+_0x1K2L.Size = UDim2.new(1, 0, 0.1, 0); _0x1K2L.Text = "Made By Sakurmo"; _0x1K2L.TextColor3 = Color3.fromRGB(120, 120, 120); _0x1K2L.TextScaled = true
+
+local function _0xSTR(_0xDST)
+    if _0xC then _0xC:Disconnect() end
+    _0xC = _0xRS.Heartbeat:Connect(function()
+        local _0xCH = _0xLP.Character
+        if not _0xCH or not _0xCH:FindFirstChild("HumanoidRootPart") then return end
+        local _0xT = _0xCH:FindFirstChildWhichIsA("Tool")
+        if not _0xT or not _0xT:FindFirstChild("Handle") then return end
+        for _, _0xV in pairs(_0xP:GetPlayers()) do
+            if _0xV == _0xLP then continue end
+            local _0xTC = _0xV.Character
+            if _0xTC and _0xTC:FindFirstChild("HumanoidRootPart") and _0xTC:FindFirstChild("Humanoid") and _0xTC.Humanoid.Health > 0 then
+                if (_0xTC.HumanoidRootPart.Position - _0xCH.HumanoidRootPart.Position).Magnitude <= _0xDST then
+                    _0xT:Activate()
+                    for _, _0xPT in pairs(_0xTC:GetDescendants()) do
+                        if _0xPT:IsA("BasePart") then
+                            firetouchinterest(_0xT.Handle, _0xPT, 0); firetouchinterest(_0xT.Handle, _0xPT, 1)
+                        end
+                    end
+                end
+            end
+        end
+    end)
+end
+
+_0x5E6F.MouseButton1Click:Connect(function()
+    local _0xIT = _0x9I0J.Text
+    local _0xIV = tonumber(_0xIT) or 1000000
+    if _0xLP.Character and _0xLP.Character:FindFirstChildWhichIsA("Tool") then _0xSTR(_0xIV) end
+end)
+
+_0xLP.CharacterAdded:Connect(function(_0xCH)
+    _0xCH.ChildRemoved:Connect(function(_0xCHLD)
+        if _0xCHLD:IsA("Tool") and not _0xCH:FindFirstChildWhichIsA("Tool") then
+            if _0xC then _0xC:Disconnect(); _0xC = nil end
+        end
+    end)
+end)
